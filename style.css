@@ -5,7 +5,8 @@
 }
 
 body {
-    background-color: #A5BECC;
+    background: rgb(238,174,202);
+background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(136,71,215,1) 65%);
     color: white;
     display: flex;
     align-items: center;
@@ -19,6 +20,7 @@ body {
     background-color:#3f7496;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     min-width: 400px;
+    border-radius: 12px;
 }
 
 .pass-header {
